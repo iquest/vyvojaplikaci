@@ -1,7 +1,7 @@
 $(document).ready(function(){
    $(".ico-shadow.arrow-down").click(function(){
       $('html, body').animate({
-       scrollTop: $($(this).attr('href')).offset().top // UPDATED LINE
+       scrollTop: $($(this).attr('link')).offset().top // UPDATED LINE
 		 }, 1000);
    });
 });

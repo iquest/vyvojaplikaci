@@ -1,6 +1,6 @@
 var one = "#10e88a",
 		two = "#7f3995";
-
+/* background color change */
 $(window).on("scroll touchmove", function() {
 	if ($("#two").length) {
 		var positionTwo = $("#two").position().top - ($("#two").position().top/2);
@@ -16,13 +16,13 @@ $(window).on("scroll touchmove", function() {
 	        $('.full-page .wrapper .text h2').css({color : '#292929'});
 	        $('.full-page p, .full-page ul li, .advice-points .text *').css({color : '#414141'});
 			};
-	}  
+	}
 });
 
 $(".hamburger").click(function(){
     $(".navbar").toggle("slow", "swing");
 });
-
+/* text animations */
 var $animation_elements = $('.animation-element');
 var $window = $(window);
 
