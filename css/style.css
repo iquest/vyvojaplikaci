@@ -1078,7 +1078,7 @@ ul li:before {
   font-size: 41px;
   left: 50%;
   transform: translateX(-50%) translateY(-55%);
-  top: 50%;
+  top: 48%;
 }
 
 .advice .comparison .table .point .icon {
@@ -1092,6 +1092,10 @@ ul li:before {
 .comparison .table .point .icon img {
   height: 15px;
   width: 15px;
+}
+
+.comparison .table .point .icon.minus img {
+  display: none;
 }
 
 .comparison .table .point .title {
@@ -1327,6 +1331,10 @@ ul li:before {
 
 /* mobile */
 @media only screen and (max-width: 768px) {
+
+  .hamburger:hover {
+    box-shadow: none;
+  }
   h2 {
     font-size: 25px;
     line-height: 32px;
@@ -1349,6 +1357,10 @@ ul li:before {
     top: 15px;
   }
 
+  .homepage .motto {
+    padding: 0 15px;
+  }
+
   .navigation .navbar {
     border-radius: 0;
     top: 80px;
@@ -1362,7 +1374,7 @@ ul li:before {
   }
 
   .navigation .navbar li {
-    margin-bottom: 12px;
+    margin-bottom: 17px;
   }
 
   .ico-shadow {
@@ -1393,6 +1405,7 @@ ul li:before {
   }
 
   .subpage .advice-points .number {
+    font-size: 15px;
     height: 30px;
     margin-right: 10px;
     min-width: 30px;
@@ -1475,7 +1488,7 @@ ul li:before {
 
   .advice .subpage .advice-points,
   .subpage .comparison {
-    padding: 30px 0 0px;
+    padding: 30px 15px 0px;
   }
 
   .comparison .table {
@@ -1504,7 +1517,11 @@ ul li:before {
   }
 
   .comparison .table .point {
-    padding: 12px 20px;
+    padding: 10px 15px;
+  }
+
+  .comparison .table .point .title {
+    font-size: 14px;
   }
 
   .advice .comparison .table .point .icon {
@@ -1556,6 +1573,7 @@ ul li:before {
   .full-page .wrapper .image img {
     max-height: 150px;
     max-width: 100%;
+    width: auto;
   }
 
   .full-page .wrapper .text {
@@ -1698,7 +1716,7 @@ ul li:before {
   }
 }
 
-@media only screen and (max-height: 850px) {
+@media only screen and (max-height: 850px) and (min-width: 769px) {
 
   h2 {
     font-size: 35px;
@@ -1757,7 +1775,6 @@ ul li:before {
   .comparison .table .point .title {
     font-size: 15px;
     line-height: 32px;
-
   }
 
   .comparison .table .point {
