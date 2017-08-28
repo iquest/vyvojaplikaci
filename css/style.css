@@ -4,9 +4,6 @@
   overflow: hidden;
 }
 
-/*bounce up animation for the subject*/
-
-
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500&subset=latin-ext');
 
 body {
@@ -1698,5 +1695,72 @@ ul li:before {
 
   .nav-dots {
     display: none;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 25px;
+  }
+  .ico-wrapper {
+    margin-top: 15px;
+  }
+
+  .path-box .text {
+    margin-bottom: 15px;
+  }
+
+  .ico-wrapper {
+    height: 80px;
+    width: 80px;
+  }
+
+  .subtitle {
+    margin-top: 10px;
+  }
+
+  .title-1 {
+    margin-top: 10px;
+  }
+
+  .homepage .title-1 {
+    margin-bottom: 0;
+  }
+
+  .full-page .number {
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+  }
+
+  .full-page .wrapper .text h2 {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .full-page#edison .wrapper .text {
+    width: 75%;
+  }
+
+  .comparison .table {
+    padding: 20px 0;
+  }
+
+  .comparison .table .point .title {
+    font-size: 15px;
+    line-height: 32px;
+
+  }
+
+  .comparison .table .point {
+    padding: 10px 60px;
   }
 }
