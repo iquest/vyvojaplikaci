@@ -440,11 +440,15 @@ ul li:before {
 .full-page {
   align-items: center;
   border-bottom: 2px solid #f4f8f9;
-  display: flex;
   height: 100vh;
-  justify-content: center;
   overflow: hidden;
   position: relative;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .full-page.transparent {
@@ -661,16 +665,22 @@ ul li:before {
 }
 
 .subpage-path-box .inner {
+  -webkit-align-items: center;
   align-items: center;
+  display: -webkit-flex;
   box-sizing: border-box;
   display: flex;
+  -webkit-flex-direction: row;
   flex-direction: row;
   height: 100%;
+  -webkit-justify-content: space-between;
   justify-content: space-between;
   padding: 0 75px 0 50px;
   position: absolute;
   width: 100%;
   z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .subpage-path-box.big .inner {
