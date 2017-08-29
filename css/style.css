@@ -227,6 +227,7 @@ ul li:before {
 
 .logo img {
   width: 150px;
+  height: 40px;
 }
 
 .navigation {
@@ -542,6 +543,12 @@ ul li:before {
   justify-content: center;
 }
 
+.full-page .wrapper .text p,
+.full-page .wrapper .text h2,
+.full-page .wrapper .text .separator {
+  max-width: 100%;
+}
+
 .full-page .wrapper .text h2 {
   font-weight: 500;
   margin-bottom: 12px;
@@ -654,6 +661,8 @@ ul li:before {
   height: 100%;
   position: absolute;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .subpage-path-box .img-black {
