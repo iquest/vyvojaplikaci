@@ -715,6 +715,13 @@ ul li:before {
   margin: 25px 0;
 }
 
+.subpage-path-box.big .inner .text .btn-arrow-right {
+  display: inline-block;
+  width: 8px;
+  height: 13px;
+  margin-left: 15px;
+}
+
 .subpage-path-box.right .inner {
   padding: 0 50px 0 75px;
 }
@@ -1434,7 +1441,6 @@ ul li:before {
     height: 100%;
   }
 
-
   .title-1 {
     font-size: 22px;
     line-height: 32px;
@@ -1724,6 +1730,7 @@ ul li:before {
 
   .subpage-path-box.big .inner .text .btn {
     margin: 5px 0;
+    font-size: 15px;
   }
 
   .subpage-path-box.big {
