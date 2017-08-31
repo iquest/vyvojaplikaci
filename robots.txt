@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Host: http://www.vyvojaplikace.cz/
+Sitemap: http://www.vyvojaplikace.cz/sitemap.xml
