@@ -129,11 +129,11 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 45px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   line-height: 48px;
 }
 
@@ -329,8 +329,8 @@ ul li:before {
 }
 
 .homepage .title-1 {
-  font-size: 45px;
-  line-height: 60.75px;
+  font-size: 30px;
+  line-height: 50px;
 }
 
 .devices {
